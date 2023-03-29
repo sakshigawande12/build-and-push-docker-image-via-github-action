@@ -40,7 +40,7 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: sakshigawande12/app:latest
+          tags: sakshigawande12/app:0.1.0
 
       - name: Trigger next workflow
         if: success()
